@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  .hero
+    .overlay
+      h1.title= title
+      p.subtitle Bem-vindo ao #{title}
+      a.btn(href="#about") Explorar
+
+  section#about.container
+    .card
+      img.card-img(src="https://picsum.photos/800/400", alt="Imagem destaque")
+      h2 Uma experiência moderna
+      p
+        strong Pug
+      a.btn-secondary(href="/") Voltar ao início

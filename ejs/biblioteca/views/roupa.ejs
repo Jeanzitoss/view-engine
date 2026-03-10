@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+
+    <div class="hero">
+      <div class="glass-card">
+        <h1 class="title"><%= title %></h1>
+        <p class="subtitle">Welcome to <%= title %></p>
+
+        <div class="buttons">
+          <a href="#about" class="btn">Explore</a>
+          <a href="/" class="btn-outline">Home</a>
+        </div>
+      </div>
+    </div>
+
+    <section id="about" class="container">
+      <div class="card">
+        <img src="https://picsum.photos/900/400" alt="Imagem destaque">
+        <h2>Modern Node.js Page</h2>
+        <p>
+          Esta página foi renderizada com <strong>EJS</strong> e possui
+          alguns efeitos modernos para deixar a interface mais agradável.
+        </p>
+      </div>
+    </section>
+
+  </body>
+</html>
